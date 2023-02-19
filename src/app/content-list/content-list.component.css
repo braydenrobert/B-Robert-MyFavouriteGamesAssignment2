@@ -1,0 +1,10 @@
+.content-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.content-card {
+  width: calc((100% - 50px) / 5);
+  border: 1px solid;
+}
